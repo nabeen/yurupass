@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import NavigationBar from './component/NavigationBar.js';
-import SiteImage from './component/SiteImage.js';
+import SiteTop from './component/SiteTop.js';
 
 class App extends Component {
   render() {
@@ -11,7 +11,7 @@ class App extends Component {
 	      <MuiThemeProvider>
 	        <NavigationBar />
 	      </MuiThemeProvider>
-	      <SiteImage />
+	      <SiteTop />
 	    </div>
     );
   }

@@ -12,8 +12,7 @@ class NavigationBar extends Component {
 	render() {
 		return (
 			<AppBar
-				title="yurupass"
-				iconClassNameRight="muidocs-icon-navigation-expand-more"
+				zDepth={0}
 			/>
 		)
 	}
